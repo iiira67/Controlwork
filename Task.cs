@@ -1,3 +1,5 @@
+//Написать программу, которая из имеющегося массива строк формирует новый массив из строк, длина которых меньше, либо равна 3 символам.
+
 string[] array1 = new string[5] {"555", "76", "people", "world", "dew"};
 string[] array2 = new string[array1.Length];
 void SecondArray(string[] array1, string[] array2)
@@ -22,3 +24,5 @@ void PrintArray(string[] array)
 }
 SecondArray(array1, array2);
 PrintArray(array2);
+
+//Решение: 555 76 dew
